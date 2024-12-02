@@ -7,8 +7,6 @@ This project is aimed at creating a simple blog website using HTML and CSS. The 
 - [Technical Requirements](#technical-requirements)
 - [Functional Requirements](#functional-requirements)
 - [Visual Requirements](#visual-requirements)
-- [Installation Instructions](#installation-instructions)
-- [License](#license)
 
 ## Project Description
 
