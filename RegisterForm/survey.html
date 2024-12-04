@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+    <title>Form</title>
+</head>
+<body>
+    <h1 id="title">Survey Form For CSS Practice</h1>
+    <form action="" id="survey-form">
+        <div id="labels">
+        <label for="name"></label>
+        <input type="text" class="icon-1" id="name" placeholder="FullName">
+        <label for="mail"></label>
+        <input type="email" class="icon-1" id="mail" placeholder="Mail">
+        <label for="age"></label>
+        <input type="number" class="icon-1" id="age" placeholder="Age">
+
+        <select name="select" id="select">
+            <option value="">Select Gender</option>
+            <option value="erkek">Erkek</option>
+            <option value="kadın">Kadın</option>
+        </select>
+        <p>Bizi nereden duydunuz?</p>
+        <div id="social">
+        
+        <input type="radio">İnstagram
+        <input type="radio">LinkedIn
+        </div>
+        <div id="check">
+        <input type="checkbox" name="terms" id="terms">
+        <label for="terms">Terms Of Services</label>
+        <input type="checkbox" name="news" id="news">
+        <label for="news">Subscribe For News</label>
+        </div>
+        <textarea name="textarea" id="textarea" placeholder="Suggestions"></textarea>
+        </div>
+    </form>
+</body>
+</html>

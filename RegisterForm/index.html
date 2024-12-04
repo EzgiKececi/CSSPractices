@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="d1">
+        <div class="d2">
+            <h1 id="title">Survey Form For CSS Practice</h1>
+            <p id="description">Please fill out the following survey</p>
+        </div> 
+        <div class="labels">
+            <form action="index.html" id="survey-form">
+                <div>
+                    <input type="text" id="name" placeholder="FULLNAME" class="name-label">
+                </div>
+                <div>
+                    <input type="email" id="email" placeholder="EMAIL" class="email-label">
+                </div>
+                <div>
+                    <input type="number" id="number" min="18" max="65" placeholder="AGE" class="number-label">
+                </div>
+                <select name="dropdown" id="dropdown">
+                    <option value="">SELECT GENDER</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <div class="select-socialmedia">
+                    <p>Where did you hear us?</p>
+                    <input type="radio" name="social-media"> Instagram
+                    <input type="radio" name="social-media"> Facebook
+                </div>
+
+                <div class="options">
+                    <input type="checkbox" name="options"> Terms of Service
+                    <input type="checkbox" name="options"> Subscribe For News
+                </div>
+
+                <textarea name="" id="text" placeholder="Suggestions.."></textarea>
+
+                <button type="submit">Sign Up</button>
+
+
+               
+            </form> 
+        </div>
+             
+    </div>
+
+  
+</body>
+</html>
